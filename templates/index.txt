@@ -1,0 +1,8 @@
+<body>
+  <h1>{{title}}</h1>
+  <p>{{message}}</p>
+<iframe src={{uu}}
+  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+ </div>
+</body>

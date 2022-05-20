@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_69836cf5047e4f53add4360bae6e99aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_69836cf5047e4f53add4360bae6e99aa" ></div>
+        
+</body>
+<script>    
+    
+            var map_69836cf5047e4f53add4360bae6e99aa = L.map(
+                "map_69836cf5047e4f53add4360bae6e99aa",
+                {
+                    center: [35.35, 137.37],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b6de14d024e243b9ae06bfcd75390ef1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var marker_78a5ea59607d433e8d5aad06ad3382ed = L.marker(
+                [35.35572, 137.374904],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_08c5b55ab0604cc9b2239b511bd3c45e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78a5ea59607d433e8d5aad06ad3382ed.setIcon(icon_08c5b55ab0604cc9b2239b511bd3c45e);
+        
+    
+        var popup_ea0c857947874c5982f92f84d2176b3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd6cd97e7f5b4e15b5a22b425ef3179b = $(`<div id="html_bd6cd97e7f5b4e15b5a22b425ef3179b" style="width: 100.0%; height: 100.0%;">山岡中学校・体育館</div>`)[0];
+            popup_ea0c857947874c5982f92f84d2176b3e.setContent(html_bd6cd97e7f5b4e15b5a22b425ef3179b);
+        
+
+        marker_78a5ea59607d433e8d5aad06ad3382ed.bindPopup(popup_ea0c857947874c5982f92f84d2176b3e)
+        ;
+
+        
+    
+    
+            var marker_4fa9e105c30d46dbbc47a8cd7c467edf = L.marker(
+                [35.35579, 137.382441],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_af2c534334bc432c99bbb3b5a78f703a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4fa9e105c30d46dbbc47a8cd7c467edf.setIcon(icon_af2c534334bc432c99bbb3b5a78f703a);
+        
+    
+        var popup_721fa760a823422583f0564e0c4cf3d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8a7155000fa4205941c82791b868376 = $(`<div id="html_e8a7155000fa4205941c82791b868376" style="width: 100.0%; height: 100.0%;">山岡小学校・体育館</div>`)[0];
+            popup_721fa760a823422583f0564e0c4cf3d6.setContent(html_e8a7155000fa4205941c82791b868376);
+        
+
+        marker_4fa9e105c30d46dbbc47a8cd7c467edf.bindPopup(popup_721fa760a823422583f0564e0c4cf3d6)
+        ;
+
+        
+    
+    
+            var marker_0f41751b51ab4d3bafc39321e2ef145f = L.marker(
+                [35.353073, 137.376396],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_29e74f2c0c81455c8e7b166299bd4508 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f41751b51ab4d3bafc39321e2ef145f.setIcon(icon_29e74f2c0c81455c8e7b166299bd4508);
+        
+    
+        var popup_aba5ec3c114a4c04a895cac4acb7b686 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce999e920b66410bb4463e824693b0f9 = $(`<div id="html_ce999e920b66410bb4463e824693b0f9" style="width: 100.0%; height: 100.0%;">山岡B&G海洋センター</div>`)[0];
+            popup_aba5ec3c114a4c04a895cac4acb7b686.setContent(html_ce999e920b66410bb4463e824693b0f9);
+        
+
+        marker_0f41751b51ab4d3bafc39321e2ef145f.bindPopup(popup_aba5ec3c114a4c04a895cac4acb7b686)
+        ;
+
+        
+    
+    
+            var marker_649bf68d1e9f480c8fcca260866982d7 = L.marker(
+                [35.351983, 137.381231],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_3f2674d31819462fbfff8a567ae03635 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_649bf68d1e9f480c8fcca260866982d7.setIcon(icon_3f2674d31819462fbfff8a567ae03635);
+        
+    
+        var popup_47949b8df7c34f31b7bd6e81636a5a65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c756a3473a042b48e68378899bef3d8 = $(`<div id="html_3c756a3473a042b48e68378899bef3d8" style="width: 100.0%; height: 100.0%;">山岡農村環境改善センター</div>`)[0];
+            popup_47949b8df7c34f31b7bd6e81636a5a65.setContent(html_3c756a3473a042b48e68378899bef3d8);
+        
+
+        marker_649bf68d1e9f480c8fcca260866982d7.bindPopup(popup_47949b8df7c34f31b7bd6e81636a5a65)
+        ;
+
+        
+    
+    
+            var marker_05f949965e384b498da9c8f305275579 = L.marker(
+                [35.369331, 137.39361],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_3d06122cac074cb5aaff5eae4b6629cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_05f949965e384b498da9c8f305275579.setIcon(icon_3d06122cac074cb5aaff5eae4b6629cc);
+        
+    
+        var popup_e42cc33971a84791b68140841539be64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cfec3ab15184619aff990591126f5a0 = $(`<div id="html_6cfec3ab15184619aff990591126f5a0" style="width: 100.0%; height: 100.0%;">爪切地蔵ふれあい会館</div>`)[0];
+            popup_e42cc33971a84791b68140841539be64.setContent(html_6cfec3ab15184619aff990591126f5a0);
+        
+
+        marker_05f949965e384b498da9c8f305275579.bindPopup(popup_e42cc33971a84791b68140841539be64)
+        ;
+
+        
+    
+    
+            var marker_52c2a274f6cd4eeca26e3fed7951a435 = L.marker(
+                [35.330214, 137.355363],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_77bea3b1f6eb4cb8a132737160815b42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_52c2a274f6cd4eeca26e3fed7951a435.setIcon(icon_77bea3b1f6eb4cb8a132737160815b42);
+        
+    
+        var popup_2cef9507dace42589fbe5be1e3ee1807 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_759e06de156f47e08934e1d22351aac5 = $(`<div id="html_759e06de156f47e08934e1d22351aac5" style="width: 100.0%; height: 100.0%;">原公民館</div>`)[0];
+            popup_2cef9507dace42589fbe5be1e3ee1807.setContent(html_759e06de156f47e08934e1d22351aac5);
+        
+
+        marker_52c2a274f6cd4eeca26e3fed7951a435.bindPopup(popup_2cef9507dace42589fbe5be1e3ee1807)
+        ;
+
+        
+    
+    
+            var marker_31a8708ea67441cca412590be8ade7b7 = L.marker(
+                [35.338784, 137.323822],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_1aba4da6bdce4c8795d98b272b820da8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31a8708ea67441cca412590be8ade7b7.setIcon(icon_1aba4da6bdce4c8795d98b272b820da8);
+        
+    
+        var popup_bf943995f4bc47018471e3bfb7d65d64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48e20f7ba5da42d092e72cc1c54fdee8 = $(`<div id="html_48e20f7ba5da42d092e72cc1c54fdee8" style="width: 100.0%; height: 100.0%;">田代集落農事集会所</div>`)[0];
+            popup_bf943995f4bc47018471e3bfb7d65d64.setContent(html_48e20f7ba5da42d092e72cc1c54fdee8);
+        
+
+        marker_31a8708ea67441cca412590be8ade7b7.bindPopup(popup_bf943995f4bc47018471e3bfb7d65d64)
+        ;
+
+        
+    
+    
+            var marker_6e5515ef67d34e21bccb0594acc4c541 = L.marker(
+                [35.337339, 137.373532],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_00d5709547f947399150c71b65115c7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e5515ef67d34e21bccb0594acc4c541.setIcon(icon_00d5709547f947399150c71b65115c7d);
+        
+    
+        var popup_60fb5fe68f1f45c8ba1d1a6d03a50ca6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_602d8bbd73c849579c38bee2fccba9b3 = $(`<div id="html_602d8bbd73c849579c38bee2fccba9b3" style="width: 100.0%; height: 100.0%;">釜屋公孫樹会館</div>`)[0];
+            popup_60fb5fe68f1f45c8ba1d1a6d03a50ca6.setContent(html_602d8bbd73c849579c38bee2fccba9b3);
+        
+
+        marker_6e5515ef67d34e21bccb0594acc4c541.bindPopup(popup_60fb5fe68f1f45c8ba1d1a6d03a50ca6)
+        ;
+
+        
+    
+    
+            var marker_04729b4315464cec928a9d1de911248c = L.marker(
+                [35.345164, 137.395606],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_8f78b1e320d54db7b11292ee5778ab0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04729b4315464cec928a9d1de911248c.setIcon(icon_8f78b1e320d54db7b11292ee5778ab0e);
+        
+    
+        var popup_5f74675f8caf420c9ee4eaccee69c6ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f49ca46bc9f46c7981cc028728f891e = $(`<div id="html_6f49ca46bc9f46c7981cc028728f891e" style="width: 100.0%; height: 100.0%;">ひまわり会館</div>`)[0];
+            popup_5f74675f8caf420c9ee4eaccee69c6ad.setContent(html_6f49ca46bc9f46c7981cc028728f891e);
+        
+
+        marker_04729b4315464cec928a9d1de911248c.bindPopup(popup_5f74675f8caf420c9ee4eaccee69c6ad)
+        ;
+
+        
+    
+    
+            var marker_40709ef8ddc74567abf36dfa05d65a0d = L.marker(
+                [35.355814, 137.408057],
+                {}
+            ).addTo(map_69836cf5047e4f53add4360bae6e99aa);
+        
+    
+            var icon_db395d14bd0f4f999ebcff1a00d4981b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_40709ef8ddc74567abf36dfa05d65a0d.setIcon(icon_db395d14bd0f4f999ebcff1a00d4981b);
+        
+    
+        var popup_5633f28534974d73a6adab9e55e8c8bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddd75f2e3f9b427f9444a6377424da60 = $(`<div id="html_ddd75f2e3f9b427f9444a6377424da60" style="width: 100.0%; height: 100.0%;">さくら会館</div>`)[0];
+            popup_5633f28534974d73a6adab9e55e8c8bf.setContent(html_ddd75f2e3f9b427f9444a6377424da60);
+        
+
+        marker_40709ef8ddc74567abf36dfa05d65a0d.bindPopup(popup_5633f28534974d73a6adab9e55e8c8bf)
+        ;
+
+        
+    
+</script>
