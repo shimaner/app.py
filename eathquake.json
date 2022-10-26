@@ -1,0 +1,1262 @@
+[
+	{
+		"_id": {
+			"$oid": "635326ce9ac9cc000756e49d"
+		},
+		"code": 551,
+		"created_at": "2022/10/22 08:10:06.124",
+		"earthquake": {
+			"domesticTsunami": "None",
+			"hypocenter": {
+				"depth": "10km",
+				"latitude": "N36.8",
+				"longitude": "E139.7",
+				"magnitude": "2.5",
+				"name": "栃木県北部"
+			},
+			"maxScale": 10,
+			"time": "22日8時07分"
+		},
+		"issue": {
+			"source": "気象庁",
+			"type": "DetailScale"
+		},
+		"points": [
+			{
+				"addr": "恵那市",
+				"scale": 60
+			}
+		],
+		"time": "2022/10/22 08:10:06.119"
+	},
+	{
+		"areas": {
+			"埼玉北部": 2,
+			"埼玉南部": 1,
+			"宮城南部": 1,
+			"東京": 1,
+			"福島中通り": 1
+		},
+		"code": 5610,
+		"count": 6,
+		"prefs": {
+			"埼玉": 3,
+			"宮城": 1,
+			"東京": 1,
+			"福島": 1
+		},
+		"regions": {
+			"東北": 2,
+			"関東": 4
+		},
+		"time": "2022/10/21 15:24:31.978"
+	},
+	{
+		"_id": {
+			"$oid": "63523afb9ac9cc000756e3b6"
+		},
+		"code": 551,
+		"created_at": "2022/10/21 15:23:55.224",
+		"earthquake": {
+			"domesticTsunami": "None",
+			"hypocenter": {
+				"depth": "30km",
+				"latitude": "N37.4",
+				"longitude": "E141.3",
+				"magnitude": "5.1",
+				"name": "福島県沖"
+			},
+			"maxScale": 45,
+			"time": "21日15時19分"
+		},
+		"issue": {
+			"source": "気象庁",
+			"type": "DetailScale"
+		},
+		"points": [
+			{
+				"addr": "楢葉町",
+				"scale": 45
+			},
+			{
+				"addr": "福島広野町",
+				"scale": 40
+			},
+			{
+				"addr": "富岡町",
+				"scale": 40
+			},
+			{
+				"addr": "川内村",
+				"scale": 40
+			},
+			{
+				"addr": "大熊町",
+				"scale": 40
+			},
+			{
+				"addr": "双葉町",
+				"scale": 40
+			},
+			{
+				"addr": "いわき市",
+				"scale": 30
+			},
+			{
+				"addr": "南相馬市",
+				"scale": 30
+			},
+			{
+				"addr": "浪江町",
+				"scale": 30
+			},
+			{
+				"addr": "相馬市",
+				"scale": 20
+			},
+			{
+				"addr": "葛尾村",
+				"scale": 20
+			},
+			{
+				"addr": "新地町",
+				"scale": 20
+			},
+			{
+				"addr": "飯舘村",
+				"scale": 20
+			},
+			{
+				"addr": "白河市",
+				"scale": 30
+			},
+			{
+				"addr": "須賀川市",
+				"scale": 30
+			},
+			{
+				"addr": "田村市",
+				"scale": 30
+			},
+			{
+				"addr": "本宮市",
+				"scale": 30
+			},
+			{
+				"addr": "福島市",
+				"scale": 20
+			},
+			{
+				"addr": "郡山市",
+				"scale": 20
+			},
+			{
+				"addr": "二本松市",
+				"scale": 20
+			},
+			{
+				"addr": "福島伊達市",
+				"scale": 20
+			},
+			{
+				"addr": "国見町",
+				"scale": 20
+			},
+			{
+				"addr": "川俣町",
+				"scale": 20
+			},
+			{
+				"addr": "大玉村",
+				"scale": 20
+			},
+			{
+				"addr": "鏡石町",
+				"scale": 20
+			},
+			{
+				"addr": "天栄村",
+				"scale": 20
+			},
+			{
+				"addr": "西郷村",
+				"scale": 20
+			},
+			{
+				"addr": "泉崎村",
+				"scale": 20
+			},
+			{
+				"addr": "中島村",
+				"scale": 20
+			},
+			{
+				"addr": "棚倉町",
+				"scale": 20
+			},
+			{
+				"addr": "矢祭町",
+				"scale": 20
+			},
+			{
+				"addr": "石川町",
+				"scale": 20
+			},
+			{
+				"addr": "玉川村",
+				"scale": 20
+			},
+			{
+				"addr": "平田村",
+				"scale": 20
+			},
+			{
+				"addr": "浅川町",
+				"scale": 20
+			},
+			{
+				"addr": "古殿町",
+				"scale": 20
+			},
+			{
+				"addr": "三春町",
+				"scale": 20
+			},
+			{
+				"addr": "小野町",
+				"scale": 20
+			},
+			{
+				"addr": "桑折町",
+				"scale": 10
+			},
+			{
+				"addr": "矢吹町",
+				"scale": 10
+			},
+			{
+				"addr": "塙町",
+				"scale": 10
+			},
+			{
+				"addr": "鮫川村",
+				"scale": 10
+			},
+			{
+				"addr": "猪苗代町",
+				"scale": 20
+			},
+			{
+				"addr": "会津美里町",
+				"scale": 20
+			},
+			{
+				"addr": "会津若松市",
+				"scale": 10
+			},
+			{
+				"addr": "喜多方市",
+				"scale": 10
+			},
+			{
+				"addr": "下郷町",
+				"scale": 10
+			},
+			{
+				"addr": "南会津町",
+				"scale": 10
+			},
+			{
+				"addr": "磐梯町",
+				"scale": 10
+			},
+			{
+				"addr": "大崎市",
+				"scale": 20
+			},
+			{
+				"addr": "色麻町",
+				"scale": 20
+			},
+			{
+				"addr": "宮城加美町",
+				"scale": 20
+			},
+			{
+				"addr": "気仙沼市",
+				"scale": 10
+			},
+			{
+				"addr": "登米市",
+				"scale": 10
+			},
+			{
+				"addr": "栗原市",
+				"scale": 10
+			},
+			{
+				"addr": "涌谷町",
+				"scale": 10
+			},
+			{
+				"addr": "宮城美里町",
+				"scale": 10
+			},
+			{
+				"addr": "仙台空港",
+				"scale": 20
+			},
+			{
+				"addr": "名取市",
+				"scale": 20
+			},
+			{
+				"addr": "角田市",
+				"scale": 20
+			},
+			{
+				"addr": "岩沼市",
+				"scale": 20
+			},
+			{
+				"addr": "蔵王町",
+				"scale": 20
+			},
+			{
+				"addr": "宮城川崎町",
+				"scale": 20
+			},
+			{
+				"addr": "亘理町",
+				"scale": 20
+			},
+			{
+				"addr": "山元町",
+				"scale": 20
+			},
+			{
+				"addr": "白石市",
+				"scale": 10
+			},
+			{
+				"addr": "七ヶ宿町",
+				"scale": 10
+			},
+			{
+				"addr": "大河原町",
+				"scale": 10
+			},
+			{
+				"addr": "村田町",
+				"scale": 10
+			},
+			{
+				"addr": "柴田町",
+				"scale": 10
+			},
+			{
+				"addr": "丸森町",
+				"scale": 10
+			},
+			{
+				"addr": "仙台青葉区",
+				"scale": 20
+			},
+			{
+				"addr": "石巻市",
+				"scale": 20
+			},
+			{
+				"addr": "仙台宮城野区",
+				"scale": 10
+			},
+			{
+				"addr": "仙台若林区",
+				"scale": 10
+			},
+			{
+				"addr": "仙台太白区",
+				"scale": 10
+			},
+			{
+				"addr": "仙台泉区",
+				"scale": 10
+			},
+			{
+				"addr": "塩竈市",
+				"scale": 10
+			},
+			{
+				"addr": "多賀城市",
+				"scale": 10
+			},
+			{
+				"addr": "東松島市",
+				"scale": 10
+			},
+			{
+				"addr": "富谷市",
+				"scale": 10
+			},
+			{
+				"addr": "松島町",
+				"scale": 10
+			},
+			{
+				"addr": "七ヶ浜町",
+				"scale": 10
+			},
+			{
+				"addr": "利府町",
+				"scale": 10
+			},
+			{
+				"addr": "大和町",
+				"scale": 10
+			},
+			{
+				"addr": "大郷町",
+				"scale": 10
+			},
+			{
+				"addr": "大衡村",
+				"scale": 10
+			},
+			{
+				"addr": "水戸市",
+				"scale": 20
+			},
+			{
+				"addr": "日立市",
+				"scale": 20
+			},
+			{
+				"addr": "常陸太田市",
+				"scale": 20
+			},
+			{
+				"addr": "高萩市",
+				"scale": 20
+			},
+			{
+				"addr": "北茨城市",
+				"scale": 20
+			},
+			{
+				"addr": "笠間市",
+				"scale": 20
+			},
+			{
+				"addr": "ひたちなか市",
+				"scale": 20
+			},
+			{
+				"addr": "常陸大宮市",
+				"scale": 20
+			},
+			{
+				"addr": "那珂市",
+				"scale": 20
+			},
+			{
+				"addr": "小美玉市",
+				"scale": 20
+			},
+			{
+				"addr": "茨城町",
+				"scale": 20
+			},
+			{
+				"addr": "城里町",
+				"scale": 20
+			},
+			{
+				"addr": "東海村",
+				"scale": 20
+			},
+			{
+				"addr": "大子町",
+				"scale": 20
+			},
+			{
+				"addr": "大洗町",
+				"scale": 10
+			},
+			{
+				"addr": "土浦市",
+				"scale": 20
+			},
+			{
+				"addr": "石岡市",
+				"scale": 20
+			},
+			{
+				"addr": "つくば市",
+				"scale": 20
+			},
+			{
+				"addr": "筑西市",
+				"scale": 20
+			},
+			{
+				"addr": "桜川市",
+				"scale": 20
+			},
+			{
+				"addr": "鉾田市",
+				"scale": 20
+			},
+			{
+				"addr": "茨城古河市",
+				"scale": 10
+			},
+			{
+				"addr": "結城市",
+				"scale": 10
+			},
+			{
+				"addr": "龍ケ崎市",
+				"scale": 10
+			},
+			{
+				"addr": "下妻市",
+				"scale": 10
+			},
+			{
+				"addr": "常総市",
+				"scale": 10
+			},
+			{
+				"addr": "取手市",
+				"scale": 10
+			},
+			{
+				"addr": "牛久市",
+				"scale": 10
+			},
+			{
+				"addr": "茨城鹿嶋市",
+				"scale": 10
+			},
+			{
+				"addr": "潮来市",
+				"scale": 10
+			},
+			{
+				"addr": "守谷市",
+				"scale": 10
+			},
+			{
+				"addr": "坂東市",
+				"scale": 10
+			},
+			{
+				"addr": "稲敷市",
+				"scale": 10
+			},
+			{
+				"addr": "かすみがうら市",
+				"scale": 10
+			},
+			{
+				"addr": "神栖市",
+				"scale": 10
+			},
+			{
+				"addr": "行方市",
+				"scale": 10
+			},
+			{
+				"addr": "つくばみらい市",
+				"scale": 10
+			},
+			{
+				"addr": "美浦村",
+				"scale": 10
+			},
+			{
+				"addr": "阿見町",
+				"scale": 10
+			},
+			{
+				"addr": "八千代町",
+				"scale": 10
+			},
+			{
+				"addr": "五霞町",
+				"scale": 10
+			},
+			{
+				"addr": "境町",
+				"scale": 10
+			},
+			{
+				"addr": "大田原市",
+				"scale": 20
+			},
+			{
+				"addr": "那須塩原市",
+				"scale": 20
+			},
+			{
+				"addr": "那須町",
+				"scale": 20
+			},
+			{
+				"addr": "日光市",
+				"scale": 10
+			},
+			{
+				"addr": "矢板市",
+				"scale": 10
+			},
+			{
+				"addr": "宇都宮市",
+				"scale": 20
+			},
+			{
+				"addr": "市貝町",
+				"scale": 20
+			},
+			{
+				"addr": "芳賀町",
+				"scale": 20
+			},
+			{
+				"addr": "高根沢町",
+				"scale": 20
+			},
+			{
+				"addr": "栃木那珂川町",
+				"scale": 20
+			},
+			{
+				"addr": "足利市",
+				"scale": 10
+			},
+			{
+				"addr": "栃木市",
+				"scale": 10
+			},
+			{
+				"addr": "佐野市",
+				"scale": 10
+			},
+			{
+				"addr": "鹿沼市",
+				"scale": 10
+			},
+			{
+				"addr": "小山市",
+				"scale": 10
+			},
+			{
+				"addr": "真岡市",
+				"scale": 10
+			},
+			{
+				"addr": "栃木さくら市",
+				"scale": 10
+			},
+			{
+				"addr": "那須烏山市",
+				"scale": 10
+			},
+			{
+				"addr": "下野市",
+				"scale": 10
+			},
+			{
+				"addr": "益子町",
+				"scale": 10
+			},
+			{
+				"addr": "茂木町",
+				"scale": 10
+			},
+			{
+				"addr": "壬生町",
+				"scale": 10
+			},
+			{
+				"addr": "野木町",
+				"scale": 10
+			},
+			{
+				"addr": "香取市",
+				"scale": 20
+			},
+			{
+				"addr": "東金市",
+				"scale": 10
+			},
+			{
+				"addr": "山武市",
+				"scale": 10
+			},
+			{
+				"addr": "神崎町",
+				"scale": 10
+			},
+			{
+				"addr": "多古町",
+				"scale": 10
+			},
+			{
+				"addr": "芝山町",
+				"scale": 10
+			},
+			{
+				"addr": "千葉中央区",
+				"scale": 10
+			},
+			{
+				"addr": "千葉花見川区",
+				"scale": 10
+			},
+			{
+				"addr": "千葉稲毛区",
+				"scale": 10
+			},
+			{
+				"addr": "千葉若葉区",
+				"scale": 10
+			},
+			{
+				"addr": "千葉美浜区",
+				"scale": 10
+			},
+			{
+				"addr": "野田市",
+				"scale": 10
+			},
+			{
+				"addr": "成田国際空港",
+				"scale": 10
+			},
+			{
+				"addr": "成田市",
+				"scale": 10
+			},
+			{
+				"addr": "千葉佐倉市",
+				"scale": 10
+			},
+			{
+				"addr": "習志野市",
+				"scale": 10
+			},
+			{
+				"addr": "柏市",
+				"scale": 10
+			},
+			{
+				"addr": "八千代市",
+				"scale": 10
+			},
+			{
+				"addr": "鎌ケ谷市",
+				"scale": 10
+			},
+			{
+				"addr": "浦安市",
+				"scale": 10
+			},
+			{
+				"addr": "四街道市",
+				"scale": 10
+			},
+			{
+				"addr": "八街市",
+				"scale": 10
+			},
+			{
+				"addr": "印西市",
+				"scale": 10
+			},
+			{
+				"addr": "白井市",
+				"scale": 10
+			},
+			{
+				"addr": "富里市",
+				"scale": 10
+			},
+			{
+				"addr": "栄町",
+				"scale": 10
+			},
+			{
+				"addr": "釜石市",
+				"scale": 10
+			},
+			{
+				"addr": "住田町",
+				"scale": 10
+			},
+			{
+				"addr": "一関市",
+				"scale": 10
+			},
+			{
+				"addr": "上山市",
+				"scale": 10
+			},
+			{
+				"addr": "村山市",
+				"scale": 10
+			},
+			{
+				"addr": "天童市",
+				"scale": 10
+			},
+			{
+				"addr": "東根市",
+				"scale": 10
+			},
+			{
+				"addr": "山辺町",
+				"scale": 10
+			},
+			{
+				"addr": "中山町",
+				"scale": 10
+			},
+			{
+				"addr": "河北町",
+				"scale": 10
+			},
+			{
+				"addr": "西川町",
+				"scale": 10
+			},
+			{
+				"addr": "米沢市",
+				"scale": 10
+			},
+			{
+				"addr": "南陽市",
+				"scale": 10
+			},
+			{
+				"addr": "高畠町",
+				"scale": 10
+			},
+			{
+				"addr": "山形川西町",
+				"scale": 10
+			},
+			{
+				"addr": "白鷹町",
+				"scale": 10
+			},
+			{
+				"addr": "沼田市",
+				"scale": 10
+			},
+			{
+				"addr": "前橋市",
+				"scale": 10
+			},
+			{
+				"addr": "高崎市",
+				"scale": 10
+			},
+			{
+				"addr": "桐生市",
+				"scale": 10
+			},
+			{
+				"addr": "伊勢崎市",
+				"scale": 10
+			},
+			{
+				"addr": "渋川市",
+				"scale": 10
+			},
+			{
+				"addr": "安中市",
+				"scale": 10
+			},
+			{
+				"addr": "板倉町",
+				"scale": 10
+			},
+			{
+				"addr": "群馬明和町",
+				"scale": 10
+			},
+			{
+				"addr": "千代田町",
+				"scale": 10
+			},
+			{
+				"addr": "大泉町",
+				"scale": 10
+			},
+			{
+				"addr": "邑楽町",
+				"scale": 10
+			},
+			{
+				"addr": "熊谷市",
+				"scale": 10
+			},
+			{
+				"addr": "加須市",
+				"scale": 10
+			},
+			{
+				"addr": "本庄市",
+				"scale": 10
+			},
+			{
+				"addr": "東松山市",
+				"scale": 10
+			},
+			{
+				"addr": "鴻巣市",
+				"scale": 10
+			},
+			{
+				"addr": "久喜市",
+				"scale": 10
+			},
+			{
+				"addr": "滑川町",
+				"scale": 10
+			},
+			{
+				"addr": "嵐山町",
+				"scale": 10
+			},
+			{
+				"addr": "ときがわ町",
+				"scale": 10
+			},
+			{
+				"addr": "さいたま北区",
+				"scale": 10
+			},
+			{
+				"addr": "さいたま見沼区",
+				"scale": 10
+			},
+			{
+				"addr": "春日部市",
+				"scale": 10
+			},
+			{
+				"addr": "坂戸市",
+				"scale": 10
+			},
+			{
+				"addr": "幸手市",
+				"scale": 10
+			},
+			{
+				"addr": "白岡市",
+				"scale": 10
+			},
+			{
+				"addr": "川島町",
+				"scale": 10
+			},
+			{
+				"addr": "宮代町",
+				"scale": 10
+			},
+			{
+				"addr": "東京千代田区",
+				"scale": 10
+			},
+			{
+				"addr": "東京渋谷区",
+				"scale": 10
+			},
+			{
+				"addr": "東京中野区",
+				"scale": 10
+			},
+			{
+				"addr": "東京杉並区",
+				"scale": 10
+			},
+			{
+				"addr": "東京江戸川区",
+				"scale": 10
+			},
+			{
+				"addr": "調布市",
+				"scale": 10
+			},
+			{
+				"addr": "国分寺市",
+				"scale": 10
+			},
+			{
+				"addr": "東大和市",
+				"scale": 10
+			},
+			{
+				"addr": "見附市",
+				"scale": 10
+			}
+		],
+		"time": "2022/10/21 15:23:55.217"
+	},
+	{
+		"_id": {
+			"$oid": "63523aa69ac9cc000756e3b0"
+		},
+		"code": 551,
+		"created_at": "2022/10/21 15:22:30.744",
+		"earthquake": {
+			"domesticTsunami": "None",
+			"hypocenter": {
+				"depth": "30km",
+				"latitude": "N37.4",
+				"longitude": "E141.3",
+				"magnitude": "5.1",
+				"name": "福島県沖"
+			},
+			"maxScale": null,
+			"time": "21日15時19分"
+		},
+		"issue": {
+			"source": "気象庁",
+			"type": "Destination"
+		},
+		"points": [],
+		"time": "2022/10/21 15:22:30.740"
+	},
+	{
+		"_id": {
+			"$oid": "63523a679ac9cc000756e39b"
+		},
+		"code": 551,
+		"created_at": "2022/10/21 15:21:27.009",
+		"earthquake": {
+			"domesticTsunami": "Checking",
+			"hypocenter": {
+				"depth": "",
+				"latitude": "",
+				"longitude": "",
+				"magnitude": "",
+				"name": ""
+			},
+			"maxScale": 45,
+			"time": "21日15時19分"
+		},
+		"issue": {
+			"source": "気象庁",
+			"type": "ScalePrompt"
+		},
+		"points": [
+			{
+				"addr": "福島県浜通り",
+				"scale": 45
+			},
+			{
+				"addr": "福島県中通り",
+				"scale": 30
+			}
+		],
+		"time": "2022/10/21 15:21:27.001"
+	},
+	{
+		"areas": {
+			"千葉北東部": 3,
+			"千葉北西部": 12,
+			"和歌山北部": 1,
+			"埼玉北部": 1,
+			"埼玉南部": 10,
+			"大阪南部": 1,
+			"宮城北部": 5,
+			"宮城南部": 11,
+			"山形村山": 1,
+			"山梨東部": 1,
+			"岩手内陸": 2,
+			"新潟上越": 1,
+			"新潟中越": 1,
+			"東京": 31,
+			"栃木北部": 1,
+			"栃木南部": 8,
+			"神奈川東部": 14,
+			"神奈川西部": 2,
+			"福島中通り": 4,
+			"福島浜通り": 1,
+			"秋田沿岸": 1,
+			"群馬南部": 9,
+			"茨城北部": 5,
+			"茨城南部": 6,
+			"青森津軽": 1,
+			"静岡伊豆": 1,
+			"静岡東部": 1
+		},
+		"code": 5610,
+		"count": 136,
+		"prefs": {
+			"千葉": 15,
+			"和歌山": 1,
+			"埼玉": 11,
+			"大阪": 1,
+			"宮城": 16,
+			"山形": 1,
+			"山梨": 1,
+			"岩手": 2,
+			"新潟": 2,
+			"東京": 31,
+			"栃木": 9,
+			"神奈川": 16,
+			"福島": 5,
+			"秋田": 1,
+			"群馬": 9,
+			"茨城": 11,
+			"青森": 1,
+			"静岡": 2
+		},
+		"regions": {
+			"北陸": 2,
+			"東北": 26,
+			"東海": 2,
+			"甲信": 1,
+			"近畿": 2,
+			"関東": 102
+		},
+		"time": "2022/10/21 15:20:12.514"
+	},
+	{
+		"_id": {
+			"$oid": "6350f19a9ac9cc000756e204"
+		},
+		"code": 551,
+		"created_at": "2022/10/20 15:58:34.975",
+		"earthquake": {
+			"domesticTsunami": "None",
+			"hypocenter": {
+				"depth": "80km",
+				"latitude": "N43.7",
+				"longitude": "E145.9",
+				"magnitude": "3.7",
+				"name": "?‘?a“‡?t?s"
+			},
+			"maxScale": 10,
+			"time": "20“u15??55?a"
+		},
+		"issue": {
+			"source": "?C?U’!",
+			"type": "DetailScale"
+		},
+		"points": [
+			{
+				"addr": "?l’†’￢",
+				"scale": 10
+			},
+			{
+				"addr": "?W’A’￢",
+				"scale": 10
+			},
+			{
+				"addr": "?E?C’￢",
+				"scale": 10
+			},
+			{
+				"addr": "?a?o?s",
+				"scale": 10
+			}
+		],
+		"time": "2022/10/20 15:58:34.971"
+	},
+	{
+		"_id": {
+			"$oid": "6350f19a9ac9cc000756e203"
+		},
+		"code": 551,
+		"created_at": "2022/10/20 15:58:34.734",
+		"earthquake": {
+			"domesticTsunami": "None",
+			"hypocenter": {
+				"depth": "80km",
+				"latitude": "N43.7",
+				"longitude": "E145.9",
+				"magnitude": "3.7",
+				"name": "国後島付近"
+			},
+			"maxScale": 10,
+			"time": "20日15時55分"
+		},
+		"issue": {
+			"source": "気象庁",
+			"type": "DetailScale"
+		},
+		"points": [
+			{
+				"addr": "浜中町",
+				"scale": 10
+			},
+			{
+				"addr": "標津町",
+				"scale": 10
+			},
+			{
+				"addr": "別海町",
+				"scale": 10
+			},
+			{
+				"addr": "根室市",
+				"scale": 10
+			}
+		],
+		"time": "2022/10/20 15:58:34.730"
+	},
+	{
+		"areas": {
+			"京都南部": 1,
+			"大阪北部": 1,
+			"宮城南部": 1
+		},
+		"code": 5610,
+		"count": 3,
+		"prefs": {
+			"京都": 1,
+			"大阪": 1,
+			"宮城": 1
+		},
+		"regions": {
+			"東北": 1,
+			"近畿": 2
+		},
+		"time": "2022/10/19 20:20:51.200"
+	},
+	{
+		"_id": {
+			"$oid": "634f9b2e9ac9cc000756e0d1"
+		},
+		"code": 551,
+		"created_at": "2022/10/19 15:37:34.064",
+		"earthquake": {
+			"domesticTsunami": "None",
+			"hypocenter": {
+				"depth": "10km",
+				"latitude": "N35.0",
+				"longitude": "E135.7",
+				"magnitude": "2.3",
+				"name": "京都府南部"
+			},
+			"maxScale": 10,
+			"time": "19日15時34分"
+		},
+		"issue": {
+			"source": "気象庁",
+			"type": "DetailScale"
+		},
+		"points": [
+			{
+				"addr": "亀岡市",
+				"scale": 10
+			}
+		],
+		"time": "2022/10/19 15:37:34.061"
+	}
+]
